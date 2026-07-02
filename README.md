@@ -1,6 +1,7 @@
 # NiñoPulse Global 2.3 Beta 1
 
-> English README. For a Portuguese version, create `README.pt-BR.md` and link it here.
+> English README. For a Portuguese version, click `readme_ptbr.md
+` .
 
 A bilingual, mobile-first ENSO research dashboard built to monitor, explain and visualize **El Niño**, **La Niña** and global climate impacts using official NOAA/CPC data, Open-Meteo live weather, historical ONI/RONI analysis, interactive maps, exports, public API routes, PWA support and Android support through Capacitor.
 
