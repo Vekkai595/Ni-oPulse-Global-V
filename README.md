@@ -152,7 +152,7 @@ Main data areas include:
 ## Screenshots
 
 ### Main Dashboard
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/eebfa22f-474f-4023-bfbe-796cef29e835" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/1d52466f-3f01-47ed-9637-9d2f553fea0a" />
 
 
 ### Global ENSO Map
@@ -170,11 +170,13 @@ Main data areas include:
 
  
 ### Research Mode
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/26b7b19e-fd36-4a6e-97dd-1a7568325656" />
 
 
-### Mobile / Android View
+### Local Weather
 
-<img width="390" height="844" alt="Mobile view" src="YOUR-IMAGE-LINK-HERE" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/af8c470b-dc23-46d3-b73c-e38c3316e7f1" />
+
 
 ---
 
