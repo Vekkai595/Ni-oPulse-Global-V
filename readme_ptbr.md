@@ -52,15 +52,14 @@ Eu criei o **NiñoPulse Global** como um painel de pesquisa sobre ENSO, feito pa
 
 ## Preview
 
-<img width="1920" height="1080" alt="Preview do NiñoPulse Global" src="YOUR-IMAGE-LINK-HERE" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/adc78b80-f2a5-42cc-8d49-38f59733fa8f" />
+
 
 ---
 
 ## Demo online
 
-```txt
-https://YOUR-PROJECT.vercel.app/
-```
+https://ni-o-pulse-global-v.vercel.app
 
 ---
 
@@ -157,27 +156,30 @@ As áreas principais são:
 
 ### Dashboard principal
 
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/a9402d89-976d-41ff-a851-ed637355122e" />
+
 
 
 ### Mapa global do ENSO
 
-<img width="1920" height="1080" alt="Mapa global do ENSO" src="YOUR-IMAGE-LINK-HERE" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/9170e965-5c98-4a56-9e70-876a605393a1" />
 
 ### Perfil climático de país
 
-<img width="1920" height="1080" alt="Perfil climático de país" src="YOUR-IMAGE-LINK-HERE" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/d92bc8b9-3c25-421d-8762-ac01bacc0fa7" />
 
 ### Análises históricas
 
-<img width="1920" height="1080" alt="Análises históricas" src="YOUR-IMAGE-LINK-HERE" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/91e3e755-d31d-439f-b398-f8fdf6c4cd5c" />
 
 ### Modo pesquisa
 
-<img width="1920" height="1080" alt="Modo pesquisa" src="YOUR-IMAGE-LINK-HERE" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/1fe63f3c-b25f-4d54-b25a-77a10341cef7" />
 
-### Visual mobile / Android
+### Clima local
 
-<img width="390" height="844" alt="Visual mobile" src="YOUR-IMAGE-LINK-HERE" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/a2c5dd36-11ae-4ea7-beb9-5bb7f8edcb0f" />
+
 
 ---
 
