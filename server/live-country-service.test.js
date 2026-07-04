@@ -65,8 +65,8 @@ test("normalizes current conditions and forecast for every country", () => {
 test("returns the last valid live snapshot when the provider fails", async () => {
   resetLiveCountryCacheForTests();
   const payload = countries.map((_, index) => mockRow(index));
-  const okFetch = async () => ({ ok: true, json: async () => payload });
-  const failedFetch = async () => ({ ok: false, status: 503, json: async () => ({}) });
+  const okFetch = async () => /** @type {Response} */ ({ ok: true, json: async () => payload });
+  const failedFetch = async () => /** @type {Response} */ ({ ok: false, status: 503, json: async () => ({}) });
 
   const fresh = await getLiveCountries({ force: true, fetchImpl: okFetch });
   const stale = await getLiveCountries({ force: true, fetchImpl: failedFetch });

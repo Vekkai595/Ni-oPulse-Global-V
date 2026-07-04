@@ -106,7 +106,7 @@
   .data-table { @apply w-full min-w-[480px] border-collapse text-left text-sm; }
   .data-table th { @apply sticky top-0 bg-card px-5 py-3 text-[10px] font-bold uppercase tracking-wider text-muted-foreground; }
   .data-table td { @apply border-t border-border px-5 py-3 text-sm; }
-  .mobile-bottom-nav { @apply fixed inset-x-0 bottom-0 z-[1300] grid grid-cols-4 border-t border-border bg-background/95 px-2 pt-2 shadow-[0_-12px_30px_rgba(0,0,0,0.12)] backdrop-blur-xl; padding-bottom: max(0.5rem, env(safe-area-inset-bottom)); }
+  .mobile-bottom-nav { @apply fixed inset-x-0 bottom-0 z-[1300] grid grid-cols-5 border-t border-border bg-background/95 px-2 pt-2 shadow-[0_-12px_30px_rgba(0,0,0,0.12)] backdrop-blur-xl; padding-bottom: max(0.5rem, env(safe-area-inset-bottom)); }
   .mobile-bottom-item { @apply flex min-h-14 flex-col items-center justify-center gap-1 rounded-xl px-1 text-[10px] font-semibold text-muted-foreground transition active:scale-95; }
   .mobile-bottom-item-active { @apply bg-primary/10 text-primary; }
   .mobile-settings-sheet { @apply fixed inset-x-0 bottom-0 z-[1500] max-h-[86dvh] overflow-y-auto overscroll-contain rounded-t-3xl border-t border-border bg-background p-5 shadow-2xl; padding-bottom: max(1.25rem, env(safe-area-inset-bottom)); }
@@ -419,7 +419,7 @@ input, textarea, select {
 
 @media (max-height: 560px) and (orientation: landscape) {
   .mobile-bottom-nav {
-    grid-template-columns: repeat(4, minmax(0, 1fr));
+    grid-template-columns: repeat(5, minmax(0, 1fr));
     min-height: calc(3.7rem + env(safe-area-inset-bottom));
   }
   .mobile-bottom-item {

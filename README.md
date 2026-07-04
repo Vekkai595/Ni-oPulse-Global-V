@@ -1,54 +1,63 @@
-# NiñoPulse Global 2.3 Beta 1
+# NiñoPulse Global 2.4 Product Polish
 
 > English version of the README. If you want to read it in Portuguese, use: [README em português](readme_ptbr.md)
 
-A bilingual, mobile-first ENSO research dashboard built to monitor, explain and visualize **El Niño**, **La Niña** and global climate impacts using official NOAA/CPC data, Open-Meteo live weather, historical ONI/RONI analysis, interactive maps, exports, public API routes, PWA support and Android support through Capacitor.
+NiñoPulse Global is a bilingual, mobile-first ENSO research dashboard that turns official NOAA/CPC monitoring into a clear product experience: live ENSO status, historical country impacts, local weather, an interactive map, a scenario simulator, exports, API routes, PWA support and Android support through Capacitor.
+
+## Product Snapshot
+
+- **Core value:** explain how El Niño, La Niña and neutral ENSO conditions can affect countries without mixing official data, educational synthesis and experiments.
+- **Primary users:** students, teachers, early-stage researchers and portfolio reviewers.
+- **Main data sources:** NOAA/CPC for ENSO monitoring and Open-Meteo for local weather.
+- **Scientific boundary:** educational and research-oriented; not an emergency-warning system.
+- **Quality focus:** mobile navigation, source transparency, cached data, public API, tests and production build validation.
+
+## Recent Upgrade Highlights
+
+- Mobile bottom navigation now correctly supports five primary items.
+- Local weather was refactored with TanStack Query, retry states, cached state/city lists and visible error handling.
+- The hero now communicates the product value faster and links directly to the local weather tool.
+- A source/methodology strip makes NOAA/CPC, Open-Meteo and scientific boundaries visible near the top of the app.
+- A new ENSO scenario simulator lets users test hypothetical Niño 3.4 anomalies and see historically sensitive countries.
+- SEO/Open Graph/Twitter metadata were expanded for better sharing and portfolio presentation.
+- Type checking now covers the full application, API, server and scripts instead of only a small subset.
+
+## Quick Start
+
+```bash
+npm install
+npm run dev
+```
+
+Production quality check:
+
+```bash
+npm run check
+```
+
+## Tech Stack
+
+React 18, Vite 6, Tailwind CSS, TanStack Query, Recharts, Leaflet, Framer Motion, Node.js server/API routes, Vite PWA and Capacitor Android.
+
+<details>
+<summary>Project badges</summary>
 
 ![Status](https://img.shields.io/badge/status-active-brightgreen)
-![Version](https://img.shields.io/badge/version-2.3.0--beta.1-blue)
+![Version](https://img.shields.io/badge/version-2.4--polish-blue)
 ![Project](https://img.shields.io/badge/project-ENSO%20research-0ab6c8)
 ![Climate](https://img.shields.io/badge/focus-climate%20science-blue)
 ![Education](https://img.shields.io/badge/purpose-education%20%26%20research-purple)
 ![Private](https://img.shields.io/badge/package-private-lightgrey)
-
 ![React](https://img.shields.io/badge/React-18.2.0-20232A?logo=react&logoColor=61DAFB)
-![React DOM](https://img.shields.io/badge/React%20DOM-18.2.0-20232A?logo=react&logoColor=61DAFB)
 ![Vite](https://img.shields.io/badge/Vite-6.1.0-646CFF?logo=vite&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-ESM-F7DF1E?logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-5.8.2-3178C6?logo=typescript&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-%3E%3D20-339933?logo=nodedotjs&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-3.4.17-38B2AC?logo=tailwindcss&logoColor=white)
-![PostCSS](https://img.shields.io/badge/PostCSS-8.5.3-DD3A0A?logo=postcss&logoColor=white)
-![Autoprefixer](https://img.shields.io/badge/Autoprefixer-10.4.20-DD3735?logo=autoprefixer&logoColor=white)
-
-![PWA](https://img.shields.io/badge/PWA-ready-purple)
-![Vite PWA](https://img.shields.io/badge/Vite%20PWA-1.3.0-5A0FC8)
-![Workbox](https://img.shields.io/badge/Workbox-enabled-orange)
-![Capacitor](https://img.shields.io/badge/Capacitor-7.4.4-119EFF?logo=capacitor&logoColor=white)
-![Android](https://img.shields.io/badge/Android-ready-3DDC84?logo=android&logoColor=white)
-![Android SDK](https://img.shields.io/badge/Android%20SDK-35-3DDC84?logo=android&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-ready-000000?logo=vercel&logoColor=white)
-![Serverless](https://img.shields.io/badge/API-serverless-black)
-
-![Leaflet](https://img.shields.io/badge/Leaflet-1.9.4-199900?logo=leaflet&logoColor=white)
-![React Leaflet](https://img.shields.io/badge/React%20Leaflet-4.2.1-199900?logo=leaflet&logoColor=white)
-![Recharts](https://img.shields.io/badge/Recharts-2.15.4-orange)
 ![TanStack Query](https://img.shields.io/badge/TanStack%20Query-5.84.1-FF4154?logo=reactquery&logoColor=white)
-![Framer Motion](https://img.shields.io/badge/Framer%20Motion-11.16.4-0055FF?logo=framer&logoColor=white)
-![Lucide React](https://img.shields.io/badge/Lucide%20React-0.475.0-black)
-![html2canvas](https://img.shields.io/badge/html2canvas-1.4.1-yellow)
-![jsPDF](https://img.shields.io/badge/jsPDF-4.2.1-red)
-![next-themes](https://img.shields.io/badge/next--themes-0.4.4-black)
-
 ![NOAA CPC](https://img.shields.io/badge/data-NOAA%2FCPC-blue)
 ![Open-Meteo](https://img.shields.io/badge/weather-Open--Meteo-0ea5e9)
-![CORS](https://img.shields.io/badge/CORS-enabled-green)
-![Upstash](https://img.shields.io/badge/Upstash-optional%20rate%20limit-00E9A3?logo=upstash&logoColor=white)
 ![Tests](https://img.shields.io/badge/tests-Node%20Test-green)
-![ESLint](https://img.shields.io/badge/ESLint-9.19.0-4B32C3?logo=eslint&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-enabled-2088FF?logo=githubactions&logoColor=white)
 
----
+</details>
+
 
 ## Preview
 

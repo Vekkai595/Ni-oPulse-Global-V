@@ -1,7 +1,7 @@
 {
   "name": "ninopulse-global",
   "private": true,
-  "version": "2.3.0-beta.1",
+  "version": "2.4.0-polish.1",
   "type": "module",
   "scripts": {
     "dev": "vite",

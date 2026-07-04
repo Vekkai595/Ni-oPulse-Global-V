@@ -7,6 +7,8 @@ import CountryPanel from "@/components/elnino/CountryPanel";
 import ENSOProbability from "@/components/elnino/ENSOProbability";
 import FavoritesDashboard from "@/components/elnino/FavoritesDashboard";
 import FooterSection from "@/components/elnino/FooterSection";
+import SourceMethodologyStrip from "@/components/elnino/SourceMethodologyStrip";
+import EnsoScenarioSimulator from "@/components/elnino/EnsoScenarioSimulator";
 import DeferredSection from "@/components/system/DeferredSection";
 
 const WorldMap = lazy(() => import("@/components/elnino/WorldMap"));
@@ -36,6 +38,7 @@ export default function Home() {
       <NavBar />
       <main id="main-content">
         <HeroSection />
+        <SourceMethodologyStrip />
         <FavoritesDashboard onCountryClick={setSelectedCountry} />
         <section className="scroll-mt-20 mx-auto max-w-7xl px-3 py-8 sm:px-4" id="mapa">
           <FilterBar riskFilter={riskFilter} setRiskFilter={setRiskFilter} threatFilter={threatFilter} setThreatFilter={setThreatFilter} />
@@ -45,6 +48,7 @@ export default function Home() {
         </section>
         <CountryGrid riskFilter={riskFilter} threatFilter={threatFilter} onCountryClick={setSelectedCountry} />
         <ENSOProbability />
+        <EnsoScenarioSimulator />
 
         <DeferredSection minHeight={360}>
           <Suspense fallback={<SectionLoader minHeight={360} />}><ImpactEconomySection /></Suspense>
